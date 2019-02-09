@@ -14,7 +14,8 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     @yield('styles')
 </head>
-
+<title>@yield('title', 'LaraBBS') - Laravel 进阶教程</title>
+<meta name="description" content="@yield('description', 'LaraBBS 爱好者社区')" />
 <body>
 <div id="app" class="{{ route_class() }}-page">
 
