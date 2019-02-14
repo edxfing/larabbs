@@ -42,6 +42,11 @@ return array(
             'roles',
             'premissions',
         ],
+        '内容管理' => [
+            'categories',
+            'topics',
+            'replies',
+        ],
     ],
 
     /*
